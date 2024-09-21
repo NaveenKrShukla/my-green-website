@@ -139,7 +139,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../images/home-bg.jpg) no-repeat;
+    background: url(../background-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -420,8 +420,8 @@ header .fa-bars{
 }
 
 .donate .form-container form input[type="submit"]{
-    color:#fff;
-    border-color: #fff;
+    border: .2rem solid var(--green);
+    color: var(--green);
 }
 
 .donate .form-container form input[type="submit"]:hover{
